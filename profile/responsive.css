@@ -1,0 +1,53 @@
+@media only screen and (max-width: 1000px) {
+    .content {
+        margin: 80px 0 0 0;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .content {
+        margin: 60px 0 0 0;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .content {
+        margin: 50px 0 0 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .triviaHTML {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .triviaHTML {
+        width: 95%;
+    }
+    .trivia h2 {
+        font-size: 1.2rem;
+    }
+    .trivia h3 {
+        font-size: 1rem;
+    }
+    .trivia p {
+        font-size: 0.9rem;
+    }
+}
+
+@media only screen and (max-width: 250px) {
+    .triviaHTML {
+        width: 99%;
+    }
+    .trivia h2 {
+        font-size: 1rem;
+    }
+    .trivia h3 {
+        font-size: 0.9rem;
+    }
+    .trivia p {
+        font-size: 0.8rem;
+    }
+}

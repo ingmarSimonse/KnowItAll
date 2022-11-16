@@ -1,0 +1,65 @@
+html {
+    overflow: auto;
+    font-family: 'Rubik', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(0deg, rgba(255,255,255,0.7) 0%, rgba(255,255,255,1) 22%,
+        rgba(255,255,255,1) 78%, rgba(255,255,255,0.7) 100%),
+        url("../images/background_bottom.jpg") no-repeat bottom,
+        url("../images/background_top.jpg") no-repeat top;
+    background-size: auto;
+    width: 100%;
+    min-height: 100vh;
+}
+
+/* Logo */
+.logo {
+    position: absolute;
+    width: 250px;
+    top: 30px;
+    left: 30px;
+}
+
+/* Navigation */
+.nav {
+    width: 100%;
+    padding: 0 12px 0 12px;
+    display: inline-flex;
+    margin: 35px 0 0 0;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+}
+.nav a {
+    text-decoration: none;
+    background-color: #083282;
+    color: white;
+    font-size: 1.1rem;
+    border-radius: 3px;
+    padding: 5px 10px 5px 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
+}
+.nav a:hover {
+    opacity: 0.8;
+}
+
+@media only screen and (max-width: 1200px) {
+    .nav {
+        margin: 100px 0 0 0;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .logo {
+        width: 90%;
+        top: 30px;
+        left: 5%;
+    }
+}

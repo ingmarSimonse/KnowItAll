@@ -1,0 +1,55 @@
+@media only screen and (max-width: 900px) {
+    body .content {
+        margin: 40px 0 0 0;
+    }
+    .content .trivia {
+        width: 70%;
+        margin: 40px 0 0 0;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    body .content {
+        margin: 10px 0 0 0;
+    }
+    body .content h1 {
+        font-size: 2.8rem;
+    }
+    .content .trivia {
+        width: 80%;
+        margin: 10px 0 0 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    body .content h1 {
+        font-size: 2rem;
+    }
+    body .trivia .left h2 {
+        font-size: 1.2rem;
+    }
+    body .trivia .left h3 {
+        font-size: 1rem;
+    }
+    body .trivia .left .trivia_post {
+        font-size: 0.9rem;
+    }
+    body .trivia .left .trivia_user {
+        font-size: 0.8rem;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    body .content h1 {
+        display: none;
+    }
+    body .trivia .right {
+        display: none;
+    }
+    body .trivia .left {
+        width: 100%;
+    }
+    body .content .trivia {
+        margin: 40px 0 0 0;
+    }
+}
